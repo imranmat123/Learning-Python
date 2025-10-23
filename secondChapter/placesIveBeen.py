@@ -1,0 +1,50 @@
+PlacesIveBeen = ["pisa", "florance","citta della peive", "purguia", "england"]
+
+print(PlacesIveBeen)
+print(sorted(PlacesIveBeen))
+print(PlacesIveBeen)
+print(sorted(PlacesIveBeen, reverse=True))
+print(PlacesIveBeen)
+
+
+PlacesIveBeen.reverse()
+print(PlacesIveBeen)
+PlacesIveBeen.reverse()
+print(PlacesIveBeen)
+
+PlacesIveBeen.sort()
+print(PlacesIveBeen)
+PlacesIveBeen.sort(reverse=True)
+print(PlacesIveBeen)
+
+print(len(PlacesIveBeen))
+del PlacesIveBeen[4]
+print(len(PlacesIveBeen))
+print(PlacesIveBeen)
+PlacesIveBeen.insert(4, "leeds")
+print(PlacesIveBeen)
+leeds = PlacesIveBeen.pop()
+print(leeds)
+print(PlacesIveBeen)
+PlacesIveBeen.append("roundhay")
+print(PlacesIveBeen)
+PlacesIveBeen.reverse()
+print(PlacesIveBeen)
+PlacesIveBeen.reverse()
+print(PlacesIveBeen)
+PlacesIveBeen.remove("roundhay")
+print(PlacesIveBeen)
+print(len(PlacesIveBeen))
+PlacesIveBeen[0] = "lol"
+print(PlacesIveBeen)
+PlacesIveBeen.pop()
+print(PlacesIveBeen)
+PlacesIveBeen.pop(2)
+print(PlacesIveBeen)
+print(len(PlacesIveBeen))
+PlacesIveBeen.insert(1,"hahahahaaha")
+print(PlacesIveBeen)
+print(sorted(PlacesIveBeen))
+print(PlacesIveBeen)
+print(sorted(PlacesIveBeen, reverse=True))
+
