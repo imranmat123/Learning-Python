@@ -47,4 +47,3 @@ print(PlacesIveBeen)
 print(sorted(PlacesIveBeen))
 print(PlacesIveBeen)
 print(sorted(PlacesIveBeen, reverse=True))
-
