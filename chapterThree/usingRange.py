@@ -1,19 +1,35 @@
-for numbers in range(1,5):
-    print(numbers)
-print(numbers)
+for oneToTwenty in range(1,21):
+    print(oneToTwenty)
 
-square = []
+oneMillion = []
 
-print("\n")
+for value in range(1,1_000_001):
+    oneMillion.append(value)
 
-for value in range(1,11):
-    square.append(value **2)
-print(square)
+print(oneMillion)
 
-print("\n")
+print(max(oneMillion))
+print(min(oneMillion))
+print(sum(oneMillion))
 
-square = []
-for value in range(1,11,5):
-    square.append(value **2)
+for oddNumbers in range(1,21,2):
+    print(oddNumbers)
 
-print(square)
+threes = []
+
+for value in range(3,31,3):
+    threes.append(value)
+
+print(threes)
+
+cubes = []
+
+for value in range(1, 10):
+    c = value**3
+    cubes.append(value**3)
+
+print(cubes)
+
+tenCubes = [value**3 for value in range(1,10)]
+
+print(tenCubes)
