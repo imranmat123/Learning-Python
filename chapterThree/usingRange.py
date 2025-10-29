@@ -25,11 +25,11 @@ print(threes)
 cubes = []
 
 for value in range(1, 10):
-    c = value**3
+    c = value ** 3
     cubes.append(value**3)
 
 print(cubes)
 
-tenCubes = [value**3 for value in range(1,10)]
+tenCubes = [value ** 3 for value in range(1,10)]
 
 print(tenCubes)
