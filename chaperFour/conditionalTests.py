@@ -174,3 +174,78 @@ if number + number2 < 15:
 	print("you wont see this")
 else:
 	print("you will see this tho")
+
+
+print("..........\n")
+
+string1 = 'lol'
+string2 = 'LOL'
+
+if string2 ==  string1:
+	print("they are equal")
+else:
+	print("they are not EQUAL?!")
+
+
+print("..........\n")
+
+string2 = 'lol'
+
+if string2 == string1:
+	print("they are equal")
+else:
+	print("they are EQUAL?!")
+
+
+print("..........\n")
+
+string1 = 'lol'
+string2 = 'LOL'
+
+if string1.lower() == string2.lower():
+	print("they are equal, i told you!")
+else:
+	print("they are EQUAL?!")
+
+
+print("..........\n")
+
+string2 = 'change'
+
+if string1.lower() == string2.lower():
+	print("they are equal, i told you!")
+else:
+	print("they are not EQUAL?!")
+
+
+print("..........\n")
+
+n = 27
+i = 28
+
+if n <= i:
+	print(f"{n} is less then or equal to {i}")
+else:
+	print("whaaaa?")
+
+if i >= n:
+	print(f"{i} is less then or equal to {n}")
+else:
+	print("whaaaa?")
+
+if n < i:
+	print(f"{n} is less then {i}")
+else:
+	print("this message is never shown")
+
+if i > n :
+	print(f"{i} is more then {n}")
+else:
+	print("this message is never shown")
+
+n = 28
+
+if i > n :
+	print(f"{i} is more then {n}")
+else:
+	print("this should show, and ive set n to 28, so now its false right?")
