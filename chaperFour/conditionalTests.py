@@ -249,3 +249,40 @@ if i > n :
 	print(f"{i} is more then {n}")
 else:
 	print("this should show, and ive set n to 28, so now its false right?")
+
+if n == 28 and i == 27:
+	print("you are never gonna see this message")
+else:
+	print(f"as n does equal 28, i does not equal 27, this results in a false")
+
+if n == 28 or i == 27:
+	print(f"as n does equal 28, i does not equal 27, we are using an 'or' "
+		  f"opporator, meaning if one statuement is true, it will pass")
+else:
+	print("you are never gonna see this message")
+
+
+
+if n == 28 and i == 28:
+	print(f"as n does equal 28, and so does i equal 28, this results in a true"
+		  f" using the and eqality opporator")
+else:
+	print("you are never gonna see this message")
+
+if n == 26 and i == 26:
+	print("you are never gonna see this message")
+else:
+	print(f"as n does equal 26, and nither does i, this results in a false"
+		  f" using the 'or' eqality opporator")
+
+list = [1,2,3,4,5,6]
+
+if 1 in list:
+	print("this is true are 1 is in the list")
+else:
+	print("never to be seen")
+
+if 10 in list:
+	print("never to be seen")
+else:
+	print("10 is not in the list, this is false")
