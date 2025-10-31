@@ -80,3 +80,18 @@ if 'bananas' in favFurits:
 	print("you really like bananas")
 if 'figs' in favFurits:
 	print("you really like figs")
+
+
+
+print("\n")
+availble_toppings = ["tomatos", "cheeese", "bacon", "mushrooms"]
+requested_toppings = ["tomatos", "bread", "bacon"]
+
+if requested_toppings:
+	for at in requested_toppings:
+		if at in availble_toppings:
+			print(f"adding {at} to your pizza")
+		else:
+			print(f"we dont have {at.title()} left")
+else:
+	print("are you sure you want a plain pizza?")
