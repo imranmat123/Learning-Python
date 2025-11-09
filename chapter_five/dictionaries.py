@@ -155,3 +155,17 @@ for k,v in user.items():
 
 for key, value in glossary.items():
 	print(f"{key}:\n\t {value}")
+
+
+
+print("\n")
+
+print(glossary)
+
+
+friend = ["imran", "ellie"]
+for name in sorted(fav_language):
+	print(name.title())
+	if name in friend:
+		lang = fav_language[name]
+		print(f"\tHi {name.title()}, i know your fav lang is {lang.title()}")
