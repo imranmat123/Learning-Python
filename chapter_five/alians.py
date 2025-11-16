@@ -128,3 +128,7 @@ for k,v in cities.items():
 			j = stat
 			print(f"\t{info.title()}: \n\t\t{j.title()}")
 	print("\n")
+
+
+
+
