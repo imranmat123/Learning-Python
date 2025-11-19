@@ -15,5 +15,5 @@ def define_pet(pet_name, pet_type):
 	print(f"My {pet_type.title()} is named {pet_name.title()}")
 
 
-define_pet("basil", "cat")
+define_pet(pet_type = "cat", pet_name = "basil", )
 define_pet("Bhuna", "cat")
