@@ -17,3 +17,11 @@ def define_pet(pet_name, pet_type):
 
 define_pet(pet_type = "cat", pet_name = "basil", )
 define_pet("Bhuna", "cat")
+
+
+def build_person(f_name, l_name, age=None):
+	person = {'first_name': f_name, 'last_name': l_name}
+	if age:
+		person['age'] = age
+	return person
+
