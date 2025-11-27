@@ -2,21 +2,16 @@ def display_message():
 	print("in this chapter we will be learning "
 		  "about functions and how they work")
 
-display_message()
 
 def fav_book(title):
 	print(f"my favorite book is called {title.title()}")
 
-fav_book("harry potter")
 
 
 def define_pet(pet_name, pet_type):
 	print(f"I have a {pet_type.title()}")
 	print(f"My {pet_type.title()} is named {pet_name.title()}")
 
-
-define_pet(pet_type = "cat", pet_name = "basil", )
-define_pet("Bhuna", "cat")
 
 
 def build_person(f_name, l_name, age=None):
@@ -37,29 +32,44 @@ def make_album(artist_name, album_title, number_of_songs = None):
 
 
 
-paris = city_country('paris', 'france')
-
-roma = city_country(name_of_city='roma', country='italy')
-
-london = city_country(country='england', name_of_city='london')
-
-print(f"{paris}, || {london}, || {roma}")
 
 
-imran = make_album('imran is the best', 'ellie sucks ballz', 25)
-ellie= make_album(album_title='imran sucks ballz', artist_name='ellie is the best')
-basil = make_album(artist_name='bhuna is the best', album_title='suck my ballz', number_of_songs='11')
+def greet_users(names):
+
+	for name in names:
+		msg = f'hello {name.title()}'
+		print(msg)
 
 
-flag = True
-while flag:
-	print('you can press q to quit at anytime')
-	artist_name = input('what is the artists name? ')
-	album_title = input('what is the title of the album? ')
-	number_of_songs = input('does the albim have songs? ')
 
-	if artist_name == 'q' or album_title == 'q' or number_of_songs == 'q':
-		flag = False
+def complatedddd_designs(unprinted_designes,complated_designes):
+	while unprinted_designes:
+		item = unprinted_designes.pop()
+		complated_designes.append(item)
 
-	album = make_album(artist_name, album_title, number_of_songs)
-	print(album)
+def print_complated_design(complated_designes):
+	for design in complated_designes:
+		print(f"{design} has just been printed")
+
+
+
+
+def fact(value):
+	sum = value
+	for number in range(value-1, 0, -1):
+		sum = sum * number
+	return sum
+
+
+def show_messages(message):
+	if message:
+		for i in message:
+			print(i)
+	else:
+		print('empty list ')
+
+def send_messages(message, sent_message):
+	while message:
+		msg = message.pop()
+		print(f"sending {msg} now")
+		sent_message.append(msg)
