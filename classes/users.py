@@ -1,0 +1,19 @@
+class Users:
+	def __init__(self, first_name, last_name, age, location, sex):
+		self.first_name = first_name
+		self.last_name = last_name
+		self.age = age
+		self.location = location
+		self.sex = sex
+	def describe_user(self):
+		user = (f'information about the user: '
+				f'\n\t{self.first_name}'
+				f'\n\t{self.last_name}'
+				f'\n\t{self.location}'
+				f'\n\t{self.age}'
+				f'\n\t{self.sex}')
+		return user
+
+	def greet_user(self):
+		hi = f'hi {self.first_name}, its nice to meet you!'
+		return hi

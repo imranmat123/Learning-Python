@@ -28,7 +28,7 @@ london = fun_with_functions.city_country(country='england', name_of_city='london
 print(f"{paris}, || {london}, || {roma}")
 
 
-fun_with_functions.define_pet(pet_type = "cat", pet_name = "basil", )
+fun_with_functions.define_pet(pet_type ="cat", pet_name ="basil", )
 fun_with_functions.define_pet("Bhuna", "cat")
 
 fb("harry potter")

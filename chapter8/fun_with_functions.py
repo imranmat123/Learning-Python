@@ -24,7 +24,7 @@ def city_country(name_of_city, country):
 	return f'{name_of_city.title()}, {country.title()}'
 
 
-def make_album(artist_name, album_title, number_of_songs = None):
+def make_album(artist_name, album_title, number_of_songs=None):
 	info_album = {'artist': artist_name,'album': album_title}
 	if number_of_songs:
 		info_album['number of songs'] = number_of_songs

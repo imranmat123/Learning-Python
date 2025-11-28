@@ -1,0 +1,34 @@
+import dog as d
+import restaurant as r
+import users as u
+
+jack = d.Dog('jack', 7)
+
+print(jack.age)
+print(jack.name.title())
+
+restaurant = r.Restaurant('italians are us', 'italian '
+											 'food')
+restaurant2 = r.Restaurant('bhuna food emporium',
+						   'cat food')
+restaurant3 = r.Restaurant('basils food emporium',
+						   'cat food but italian')
+print(restaurant.restaurant_name)
+print(restaurant.cuisine_type)
+print(restaurant.describe_restaurant())
+print(restaurant.open_restaurant())
+
+print(restaurant2.describe_restaurant())
+print(restaurant3.describe_restaurant())
+
+imran = u.Users('imran', 'matloob', 27,
+				'internet', 'M')
+ellie = u.Users('ellie', 'scriciii', 27,
+				'internet', 'F')
+basil = u.Users('basil', 'matloob', 4,
+				'internet', 'M')
+
+
+print(imran.describe_user())
+print(ellie.describe_user())
+print(basil.describe_user())
