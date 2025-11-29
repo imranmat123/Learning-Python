@@ -1,6 +1,7 @@
 import dog as d
 import restaurant as r
 import users as u
+import house as h
 
 jack = d.Dog('jack', 7)
 
@@ -32,3 +33,12 @@ basil = u.Users('basil', 'matloob', 4,
 print(imran.describe_user())
 print(ellie.describe_user())
 print(basil.describe_user())
+
+#self, windows, doors, rooms, bathrooms, garden='no'
+ttCrowley = h.House(6,7,2,1)
+twoB = h.House(10,3,8,2,'yes')
+oneCollingWood = h.House(6,2,6,1)
+
+print(ttCrowley.descible_house())
+print(twoB.descible_house())
+print(oneCollingWood.descible_house())
