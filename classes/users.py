@@ -5,6 +5,7 @@ class Users:
 		self.age = age
 		self.location = location
 		self.sex = sex
+		self.login_attempts = 0
 	def describe_user(self):
 		user = (f'information about the user: '
 				f'\n\t{self.first_name}'
@@ -17,3 +18,12 @@ class Users:
 	def greet_user(self):
 		hi = f'hi {self.first_name}, its nice to meet you!'
 		return hi
+
+	def incorment_login_attemps(self):
+		self.login_attempts = self.login_attempts + 1
+
+	def	reset_login_attempts(self):
+		self.login_attempts = 0
+
+	def print_login_attempts(self):
+		return print(f'{self.login_attempts}')

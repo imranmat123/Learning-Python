@@ -42,3 +42,32 @@ oneCollingWood = h.House(6,2,6,1)
 print(ttCrowley.descible_house())
 print(twoB.descible_house())
 print(oneCollingWood.descible_house())
+
+oneCollingWood.garden = 'yes'
+
+print(oneCollingWood.descible_house())
+
+
+oneCollingWood.garden = 'no'
+
+
+oneCollingWood.give_garden('yes')
+
+
+restaurant.number_served = 23
+
+restaurant.print_serverd()
+restaurant.incorment_servered(10)
+restaurant.print_serverd()
+restaurant.incorment_servered(0)
+restaurant.set_number_served(44)
+restaurant.print_serverd()
+
+imran.incorment_login_attemps()
+imran.incorment_login_attemps()
+imran.incorment_login_attemps()
+imran.incorment_login_attemps()
+imran.incorment_login_attemps()
+imran.print_login_attempts()
+imran.reset_login_attempts()
+imran.print_login_attempts()
