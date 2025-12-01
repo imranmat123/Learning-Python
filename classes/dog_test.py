@@ -2,6 +2,7 @@ import dog as d
 import restaurant as r
 import users as u
 import house as h
+import car as c
 
 jack = d.Dog('jack', 7)
 
@@ -71,3 +72,7 @@ imran.incorment_login_attemps()
 imran.print_login_attempts()
 imran.reset_login_attempts()
 imran.print_login_attempts()
+
+ec = c.EletricCar('gold', 'e-sport', 2018, 70)
+print(ec.describle_car())
+print(ec.battery_size_des())
