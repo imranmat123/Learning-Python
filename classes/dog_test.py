@@ -3,6 +3,7 @@ import restaurant as r
 import users as u
 import house as h
 import car as c
+import animal as a
 
 jack = d.Dog('jack', 7)
 
@@ -76,3 +77,8 @@ imran.print_login_attempts()
 ec = c.EletricCar('gold', 'e-sport', 2018, 70)
 print(ec.describle_car())
 print(ec.battery_size_des())
+
+basil = a.cat('white and gray', 'medium', 'male')
+print(basil.legs)
+print(basil.describle_pet())
+print(basil.tail())
