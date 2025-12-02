@@ -74,11 +74,24 @@ imran.print_login_attempts()
 imran.reset_login_attempts()
 imran.print_login_attempts()
 
-ec = c.EletricCar('gold', 'e-sport', 2018, 70)
+ec = c.EletricCar('gold', 'e-sport', 2018)
 print(ec.describle_car())
-print(ec.battery_size_des())
+
 
 basil = a.cat('white and gray', 'medium', 'male')
 print(basil.legs)
 print(basil.describle_pet())
 print(basil.tail())
+
+iceCream = r.IceCreamStand('ice screem','ice')
+
+
+iceCream.describle_flavour()
+
+admin = u.Admin('lol1', 'lol2',22,'lol3',
+				'M')
+admin.privledge.check_your_privaledge()
+
+ec.battery_size.get_range()
+ec.battery_size.change_battery(65)
+ec.battery_size.get_range()

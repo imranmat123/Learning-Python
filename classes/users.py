@@ -1,3 +1,4 @@
+import privledge as p
 class Users:
 	def __init__(self, first_name, last_name, age, location, sex):
 		self.first_name = first_name
@@ -27,3 +28,9 @@ class Users:
 
 	def print_login_attempts(self):
 		return print(f'{self.login_attempts}')
+
+class Admin(Users):
+	def __init__(self, first_name, last_name, age, location, sex):
+		super().__init__(first_name, last_name, age, location, sex)
+		self.privledge = p.privledge()
+
