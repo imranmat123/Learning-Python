@@ -1,14 +1,9 @@
-from pathlib import Path
+from lastChater.empolyee import empolyee
 
-p = Path('guest')
+imran = empolyee('imran', 55, 70_000)
 
-flag = True
-names = ''
-while flag:
-	name = input('whats your name?')
-	if name != 'q':
-		names = names + name + '\n'
-	else:
-		flag = False
-
-p.write_text(names)
+print(imran.salary)
+imran.give_rise(2000)
+print(imran.salary)
+imran.give_rise()
+print(imran.salary)
